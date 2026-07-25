@@ -299,10 +299,16 @@ My "rushed" take generated incompletely — WORLD's F0 detection struggles with 
 
 ## Files
 
-*(Fill in your links)*
-- `panes_y_peces_world.py` — the timbre expansion script
-- Example register recordings
-- The trained `.tflite` + manifest (as a reference)
+- [`panes_y_peces_world.py`](panes_y_peces_world.py) — the timbre expansion script (WORLD/pyworld engine)
+- [`SEED_Loaves_and_Fishes.pdf`](SEED_Loaves_and_Fishes.pdf) — the printable flyer (English)
+- [`SEED_Panes_y_Peces.pdf`](SEED_Panes_y_Peces.pdf) — the printable flyer (Spanish)
+- [`entrada.zip`](entrada.zip) — example input: the recorded register takes
+- [`salida.zip`](salida.zip) — example output: the expanded clean samples
+- [`modelo_ejemplo/`](modelo_ejemplo) — an example trained model as a reference:
+  - [`okey_torrente_v2_seed.tflite`](modelo_ejemplo/okey_torrente_v2_seed.tflite) — the trained model
+  - [`okey_torrente_v2_seed_cal.json`](modelo_ejemplo/okey_torrente_v2_seed_cal.json) — its calibration / metrics
+
+> **Note about the example model:** `okey_torrente_v2_seed.tflite` is an **EXAMPLE** model — it detects the specific wake word *"Okey Torrente"* (my own). Don't expect it to react to your word; it's there so you can see a real, working result of the method. Train your own with the steps above.
 
 ---
 
