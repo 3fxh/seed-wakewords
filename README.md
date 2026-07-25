@@ -4,6 +4,8 @@
 
 🇪🇸 [Versión en español](README.es.md)
 
+💬 **Discussion, questions & beta testing** on the Home Assistant forum: https://community.home-assistant.io/t/seed-train-a-custom-wake-word-from-just-a-handful-of-recordings-not-hundreds/1018736
+
 ---
 
 ## Prologue — or why you end up training wake words
