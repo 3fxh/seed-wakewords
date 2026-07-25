@@ -299,10 +299,16 @@ Mi toma "con prisa" se generó incompleta — la detección de F0 de WORLD sufre
 
 ## Ficheros
 
-*(Rellena tus enlaces)*
-- `panes_y_peces_world.py` — el script de expansión de timbres
-- Grabaciones de registros de ejemplo
-- El `.tflite` entrenado + manifiesto (como referencia)
+- [`panes_y_peces_world.py`](panes_y_peces_world.py) — el script de expansión de timbres (motor WORLD/pyworld)
+- [`SEED_Loaves_and_Fishes.pdf`](SEED_Loaves_and_Fishes.pdf) — el folleto imprimible (inglés)
+- [`SEED_Panes_y_Peces.pdf`](SEED_Panes_y_Peces.pdf) — el folleto imprimible (español)
+- [`entrada.zip`](entrada.zip) — ejemplo de entrada: las tomas de registros grabadas
+- [`salida.zip`](salida.zip) — ejemplo de salida: las muestras limpias ya expandidas
+- [`modelo_ejemplo/`](modelo_ejemplo) — un modelo entrenado de ejemplo, como referencia:
+  - [`okey_torrente_v2_seed.tflite`](modelo_ejemplo/okey_torrente_v2_seed.tflite) — el modelo entrenado
+  - [`okey_torrente_v2_seed_cal.json`](modelo_ejemplo/okey_torrente_v2_seed_cal.json) — su calibración / métricas
+
+> **Nota sobre el modelo de ejemplo:** `okey_torrente_v2_seed.tflite` es un modelo de **EJEMPLO** — detecta la palabra concreta *"Okey Torrente"* (la mía). No esperes que reaccione a tu palabra; está aquí para que veas un resultado real y funcional del método. Entrena el tuyo con los pasos de arriba.
 
 ---
 
